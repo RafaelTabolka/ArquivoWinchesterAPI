@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/1 - WebApi/" />
+  <Folder Name="/2 - Dominio/">
+    <Project Path="src/ArquivoWinchester.Dominio/ArquivoWinchester.Dominio.csproj" />
+  </Folder>
+  <Folder Name="/3 - Infra/" />
+  <Folder Name="/3 - Infra/3.1 - Dados/">
+    <Project Path="src/ArquivoWinchester.Infra.Dados/ArquivoWinchester.Infra.Dados.csproj" />
+  </Folder>
+  <Folder Name="/3 - Infra/3.2 - CrossCutting/">
+    <Project Path="src/ArquivoWinchester.Infra.CrossCutting.Extensoes/ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj" />
+  </Folder>
+</Solution>
