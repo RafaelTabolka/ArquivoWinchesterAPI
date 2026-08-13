@@ -1,0 +1,13 @@
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\bin\Debug\net10.0\ArquivoWinchester.Dominio.deps.json
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\bin\Debug\net10.0\ArquivoWinchester.Dominio.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\bin\Debug\net10.0\ArquivoWinchester.Dominio.pdb
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.csproj.AssemblyReference.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.AssemblyInfo.cs
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.sourcelink.json
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\refint\ArquivoWinchester.Dominio.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ArquivoWinchester.Dominio.pdb
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Dominio\obj\Debug\net10.0\ref\ArquivoWinchester.Dominio.dll

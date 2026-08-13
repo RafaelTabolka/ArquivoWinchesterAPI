@@ -52,6 +52,18 @@ namespace ArquivoWinchester.Infra.Dados.Configuracoes
                 .IsRequired(false)
                 .HasMaxLength(200);
 
+            builder.HasOne(c => c.Cacador)
+                .WithMany(c => c.Cacadas)
+                .HasForeignKey(c => c.CacadorCriadorId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(s => s.SerSobrenatural)
+                .WithMany(c => c.Cacadas)
+                .HasForeignKey(c => c.SerSobrenaturalId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Restrict);
+
             builder.ToTable("TB_Cacadas");
         }
     }

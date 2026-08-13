@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "CadastrarCacador",
+    "RelativePath": "api/Cacador/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar.CacadorCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

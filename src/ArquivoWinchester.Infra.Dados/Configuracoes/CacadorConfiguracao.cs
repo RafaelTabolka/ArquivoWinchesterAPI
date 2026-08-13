@@ -12,7 +12,11 @@ namespace ArquivoWinchester.Infra.Dados.Configuracoes
 
             builder.Property(c => c.NomeCacador)
                 .IsRequired()
+                .UseCollation("Latin1_General_CI_AI")
                 .HasMaxLength(50);
+
+            builder.HasIndex(c => c.NomeCacador)
+                .IsUnique();
 
             builder.Property(c => c.Senha)
                 .IsRequired()

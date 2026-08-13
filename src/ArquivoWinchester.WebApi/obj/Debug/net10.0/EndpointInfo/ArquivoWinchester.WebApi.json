@@ -1,0 +1,114 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ArquivoWinchester.WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cacador/cadastrar": {
+      "post": {
+        "tags": [
+          "Cacador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorCriarRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorCriarRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorCriarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CacadorCriarRequest": {
+        "type": "object",
+        "properties": {
+          "nomeCacador": {
+            "type": "string",
+            "nullable": true
+          },
+          "senha": {
+            "type": "string",
+            "nullable": true
+          },
+          "confirmaSenha": {
+            "type": "string",
+            "nullable": true
+          },
+          "regiaoBaseCacador": {
+            "$ref": "#/components/schemas/EnumRegiaoBaseCacador"
+          },
+          "especialidadeCacador": {
+            "$ref": "#/components/schemas/EnumEspecialidadeCacador"
+          },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          },
+          "anotacoes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnumEspecialidadeCacador": {
+        "enum": [
+          "Fastasma",
+          "Investigacao",
+          "Criatura",
+          "Rastreio",
+          "Outros"
+        ],
+        "type": "string"
+      },
+      "EnumRegiaoBaseCacador": {
+        "enum": [
+          "Norte",
+          "Nordeste",
+          "CentroOeste",
+          "Sudeste",
+          "Sul"
+        ],
+        "type": "string"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Informe somente o token JWT.",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Cacador"
+    }
+  ]
+}
