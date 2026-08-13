@@ -40,6 +40,12 @@ namespace ArquivoWinchester.Infra.Dados.Configuracoes
                 .IsRequired()
                 .HasColumnType("varchar(20)");
 
+            builder.HasOne(c => c.Cacador)
+                .WithMany(s => s.SeresSobrenaturais)
+                .HasForeignKey(c => c.CacadorCriadorId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Restrict);
+
             builder.ToTable("TB_SeresSobrenaturais");
         }
     }

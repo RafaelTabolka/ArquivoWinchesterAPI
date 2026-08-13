@@ -1,0 +1,6 @@
+@ArquivoWinchester.WebApi_HostAddress = http://localhost:5201
+
+GET {{ArquivoWinchester.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

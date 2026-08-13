@@ -16,6 +16,8 @@ namespace ArquivoWinchester.Dominio.Entidades.CacadorEntidade
         public EnumStatusCacador StatusCacador { get; private set; }
         public List<Cacada> Cacadas { get; private set; } = new();
         public List<SerSobrenatural> SeresSobrenaturais { get; private set; } = new();
+        public EnumPapelCacador Papel { get; private set; }
+
 
         public Cacador(
             string nomeCacador,
@@ -32,6 +34,7 @@ namespace ArquivoWinchester.Dominio.Entidades.CacadorEntidade
             Telefone = telefone;
             Anotacoes = anotacoes;
             StatusCacador = EnumStatusCacador.Ativo;
+            Papel = EnumPapelCacador.Comum;
         }
 
         public void Atualizar(

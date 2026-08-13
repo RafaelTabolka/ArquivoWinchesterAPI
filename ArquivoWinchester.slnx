@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/1 - WebApi/" />
+  <Folder Name="/1 - WebApi/">
+    <Project Path="src/ArquivoWinchester.WebApi/ArquivoWinchester.WebApi.csproj" Id="5f4370ce-6718-4059-a351-1b333ed3a492" />
+  </Folder>
   <Folder Name="/2 - Dominio/">
     <Project Path="src/ArquivoWinchester.Dominio/ArquivoWinchester.Dominio.csproj" />
   </Folder>

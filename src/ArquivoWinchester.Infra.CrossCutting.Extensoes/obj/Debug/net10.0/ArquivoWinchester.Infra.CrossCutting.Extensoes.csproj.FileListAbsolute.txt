@@ -1,0 +1,16 @@
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\bin\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.deps.json
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\bin\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\bin\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.pdb
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\bin\Debug\net10.0\ArquivoWinchester.Dominio.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\bin\Debug\net10.0\ArquivoWinchester.Dominio.pdb
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj.AssemblyReference.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.AssemblyInfo.cs
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.sourcelink.json
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoW.991815C7.Up2Date
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\refint\ArquivoWinchester.Infra.CrossCutting.Extensoes.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ArquivoWinchester.Infra.CrossCutting.Extensoes.pdb
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.Infra.CrossCutting.Extensoes\obj\Debug\net10.0\ref\ArquivoWinchester.Infra.CrossCutting.Extensoes.dll
