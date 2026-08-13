@@ -20,5 +20,21 @@ namespace ArquivoWinchester.Infra.Dados.Repositorio.CacadorRepositorio
                 cacador => cacador.Id != id && cacador.NomeCacador == nome
             );
         }
+
+        public async Task<List<Cacador>> ListarCacadoresAsync()
+        {
+            return await DbSet
+                .Include(cacador => cacador.Cacadas)
+                .Include(cacador => cacador.SeresSobrenaturais)
+                .ToListAsync();
+        }
+
+        public async Task<Cacador?> ObterCacadorPorIdAsync(Guid id)
+        {
+            return await DbSet
+                .Include(cacador => cacador.Cacadas)
+                .Include(cacador => cacador.SeresSobrenaturais)
+                .FirstOrDefaultAsync(cacador => cacador.Id == id);
+        }
     }
 }
