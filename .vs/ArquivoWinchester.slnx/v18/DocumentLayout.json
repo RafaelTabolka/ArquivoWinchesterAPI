@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\criar\\cacadorcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\criar\\cacadorcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\login\\cacadorloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\login\\cacadorloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\criar\\cacadorcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\criar\\cacadorcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +94,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacadaController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:54:48.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacadaCriarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:38.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacadaCriarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:31.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CacadaCriarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:58.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CacadorCriarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:21:40.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CacadaCriarValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:47.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CacadaConfiguracao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:15:51.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CacadorObterHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterHandler.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterHandler.cs",
@@ -82,12 +197,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterHandler.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAqwDwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T19:15:06.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T19:15:06.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CacadorObterResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterResponse.cs",
@@ -95,25 +209,24 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterResponse.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwFEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T19:14:46.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T19:14:46.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CacadorController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
               "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T18:40:04.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CacadorObterRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterRequest.cs",
@@ -121,12 +234,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T19:14:38.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T19:14:38.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "CacadorListarHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarHandler.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarHandler.cs",
@@ -134,12 +246,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarHandler.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:40:10.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:40:10.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "RepositorioCacador.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
@@ -147,12 +258,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAA3wCQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:55:22.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:55:22.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "IRepositorioCacador.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\CacadorRepositorio\\IRepositorioCacador.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\CacadorRepositorio\\IRepositorioCacador.cs",
@@ -160,12 +270,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\CacadorRepositorio\\IRepositorioCacador.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAlwAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:55:05.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:55:05.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "CacadorObterValidation.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterValidation.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterValidation.cs",
@@ -173,12 +282,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T19:14:56.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T19:14:56.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "CacadorListarResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarResponse.cs",
@@ -186,12 +294,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarResponse.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAIwFEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T19:16:24.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T19:16:24.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "CacadorListarRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarRequest.cs",
@@ -199,12 +306,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T19:09:08.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T19:09:08.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CacadorLoginValidation.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginValidation.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginValidation.cs",
@@ -212,12 +318,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:50:23.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:50:23.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CacadorLoginHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
@@ -225,12 +330,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:45:28.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:45:28.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CacadorLoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginResponse.cs",
@@ -238,12 +342,11 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:45:21.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:45:21.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CacadorLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginRequest.cs",
@@ -251,21 +354,7 @@
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:45:15.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CacadorCriarHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:21:40.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T18:45:15.061Z"
             }
           ]
         }
