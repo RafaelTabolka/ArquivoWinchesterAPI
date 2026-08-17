@@ -5,6 +5,41 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Cacador/listar": {
+      "get": {
+        "tags": [
+          "Cacador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cacador/{id}": {
+      "get": {
+        "tags": [
+          "Cacador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cacador/cadastrar": {
       "post": {
         "tags": [
@@ -25,6 +60,37 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/CacadorCriarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cacador/login": {
+      "post": {
+        "tags": [
+          "Cacador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorLoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorLoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadorLoginRequest"
               }
             }
           }
@@ -65,6 +131,20 @@
             "nullable": true
           },
           "anotacoes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CacadorLoginRequest": {
+        "type": "object",
+        "properties": {
+          "nomeCacador": {
+            "type": "string",
+            "nullable": true
+          },
+          "senha": {
             "type": "string",
             "nullable": true
           }

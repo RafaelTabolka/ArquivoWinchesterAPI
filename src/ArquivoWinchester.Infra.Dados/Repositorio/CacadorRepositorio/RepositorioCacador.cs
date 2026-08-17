@@ -36,5 +36,11 @@ namespace ArquivoWinchester.Infra.Dados.Repositorio.CacadorRepositorio
                 .Include(cacador => cacador.SeresSobrenaturais)
                 .FirstOrDefaultAsync(cacador => cacador.Id == id);
         }
+
+        public async Task<Cacador?> ObterCacadorPorNomeAsync(string nome)
+        {
+            return await DbSet
+                .FirstOrDefaultAsync(cacador => cacador.NomeCacador == nome);
+        }
     }
 }

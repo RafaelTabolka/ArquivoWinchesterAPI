@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "ObterCacadorPorId",
+    "RelativePath": "api/Cacador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
     "Method": "CadastrarCacador",
     "RelativePath": "api/Cacador/cadastrar",
     "HttpMethod": "POST",
@@ -10,6 +26,32 @@
       {
         "Name": "request",
         "Type": "ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar.CacadorCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "ListarCacadores",
+    "RelativePath": "api/Cacador/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "Login",
+    "RelativePath": "api/Cacador/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.CacadorComandos.Login.CacadorLoginRequest",
         "IsRequired": true
       }
     ],
