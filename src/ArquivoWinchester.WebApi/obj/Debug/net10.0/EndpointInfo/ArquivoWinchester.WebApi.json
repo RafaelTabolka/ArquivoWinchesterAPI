@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Cacada/cadastrar": {
+      "post": {
+        "tags": [
+          "Cacada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadaCriarRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadaCriarRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CacadaCriarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cacador/listar": {
       "get": {
         "tags": [
@@ -105,6 +136,59 @@
   },
   "components": {
     "schemas": {
+      "CacadaCriarRequest": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "cacadorCriadorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cacadorAtualizadorId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "statusCacada": {
+            "$ref": "#/components/schemas/EnumStatusCacada"
+          },
+          "dificuldadeCacada": {
+            "$ref": "#/components/schemas/EnumDificuldadeCacada"
+          },
+          "cidade": {
+            "type": "string",
+            "nullable": true
+          },
+          "uf": {
+            "type": "string",
+            "nullable": true
+          },
+          "serSobrenaturalId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "dataCacada": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "resumo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CacadorCriarRequest": {
         "type": "object",
         "properties": {
@@ -151,6 +235,14 @@
         },
         "additionalProperties": false
       },
+      "EnumDificuldadeCacada": {
+        "enum": [
+          "Facil",
+          "Medio",
+          "Dificil"
+        ],
+        "type": "string"
+      },
       "EnumEspecialidadeCacador": {
         "enum": [
           "Fastasma",
@@ -170,6 +262,15 @@
           "Sul"
         ],
         "type": "string"
+      },
+      "EnumStatusCacada": {
+        "enum": [
+          "Aberto",
+          "Investigando",
+          "Resolvido",
+          "Arquivado"
+        ],
+        "type": "string"
       }
     },
     "securitySchemes": {
@@ -187,6 +288,9 @@
     }
   ],
   "tags": [
+    {
+      "name": "Cacada"
+    },
     {
       "name": "Cacador"
     }

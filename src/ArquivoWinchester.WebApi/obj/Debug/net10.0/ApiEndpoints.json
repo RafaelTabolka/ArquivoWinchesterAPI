@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "CadastrarCacada",
+    "RelativePath": "api/Cacada/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar.CacadaCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
     "Method": "ObterCacadorPorId",
     "RelativePath": "api/Cacador/{id}",
