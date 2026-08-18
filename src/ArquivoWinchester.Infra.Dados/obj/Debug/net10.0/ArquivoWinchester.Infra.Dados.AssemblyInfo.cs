@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArquivoWinchester.Infra.Dados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8f4a6cb3f503cbcc7c27b819d9c10fc63ef0cd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac6e02a16d877ddf5a38a24c58c8936b370a7ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArquivoWinchester.Infra.Dados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArquivoWinchester.Infra.Dados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

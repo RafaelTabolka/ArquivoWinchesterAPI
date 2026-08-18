@@ -132,10 +132,64 @@
           }
         }
       }
+    },
+    "/api/SerSobrenatural/cadastrar": {
+      "post": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "ArquivoImagemDto": {
+        "type": "object",
+        "properties": {
+          "conteudo": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
+          },
+          "nomeArquivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoConteudo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tamanho": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
       "CacadaCriarRequest": {
         "type": "object",
         "properties": {
@@ -253,6 +307,16 @@
         ],
         "type": "string"
       },
+      "EnumNivelRiscoSerSobrenatural": {
+        "enum": [
+          "NivelUm",
+          "NivelDois",
+          "NivelTres",
+          "NivelQuatro",
+          "NivelCinco"
+        ],
+        "type": "string"
+      },
       "EnumRegiaoBaseCacador": {
         "enum": [
           "Norte",
@@ -271,6 +335,44 @@
           "Arquivado"
         ],
         "type": "string"
+      },
+      "EnumStatusSerSobrenatural": {
+        "enum": [
+          "Ativo",
+          "Inativo"
+        ],
+        "type": "string"
+      },
+      "SerSobrenaturalCriarRequest": {
+        "type": "object",
+        "properties": {
+          "nomeEntidade": {
+            "type": "string",
+            "nullable": true
+          },
+          "cacadorCriadorId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "contraMedida": {
+            "type": "string",
+            "nullable": true
+          },
+          "nivelRisco": {
+            "$ref": "#/components/schemas/EnumNivelRiscoSerSobrenatural"
+          },
+          "imagem": {
+            "$ref": "#/components/schemas/ArquivoImagemDto"
+          },
+          "sinaisComuns": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusSerSobrenatural": {
+            "$ref": "#/components/schemas/EnumStatusSerSobrenatural"
+          }
+        },
+        "additionalProperties": false
       }
     },
     "securitySchemes": {
@@ -293,6 +395,9 @@
     },
     {
       "name": "Cacador"
+    },
+    {
+      "name": "SerSobrenatural"
     }
   ]
 }
