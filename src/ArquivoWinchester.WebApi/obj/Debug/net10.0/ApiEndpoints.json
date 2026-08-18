@@ -72,5 +72,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "CadastrarSerSobrenatural",
+    "RelativePath": "api/SerSobrenatural/cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar.SerSobrenaturalCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
