@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArquivoWinchester.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19af0875cc5467480ad984fc1444d3fb061eaaed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8f4a6cb3f503cbcc7c27b819d9c10fc63ef0cd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArquivoWinchester.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArquivoWinchester.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
