@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\sersobrenaturalcontrollers\\sersobrenaturalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\sersobrenaturalcontrollers\\sersobrenaturalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73F89C88-C3AE-C1E8-8F58-D517ACC35038}|src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.crosscutting.extensoes\\armazenamentoimagem\\armazenamentoimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F89C88-C3AE-C1E8-8F58-D517ACC35038}|src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj|solutionrelative:src\\arquivowinchester.infra.crosscutting.extensoes\\armazenamentoimagem\\armazenamentoimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +31,111 @@
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\interfaces\\iservico\\iarmazenamentoimagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\dto\\arquivoimagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\dto\\arquivoimagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\entidades\\sersobrenaturalentidade\\sersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\entidades\\sersobrenaturalentidade\\sersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizarimagem\\sersobrenaturalatualizarimagemvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\atualizar\\sersobrenaturalatualizarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\repositorio\\cacadorrepositorio\\repositoriocacador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\repositorio\\cacadorrepositorio\\repositoriocacador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobterresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobtervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\obter\\sersobrenaturalobtervalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\listar\\sersobrenaturallistarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aluno\\AppData\\Roaming\\Microsoft\\UserSecrets\\acf06bfd-5de8-4e34-9ec3-0e4f7cb336e1\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73F89C88-C3AE-C1E8-8F58-D517ACC35038}|src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.crosscutting.extensoes\\arquivowinchester.infra.crosscutting.extensoes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{73F89C88-C3AE-C1E8-8F58-D517ACC35038}|src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj|solutionrelative:src\\arquivowinchester.infra.crosscutting.extensoes\\arquivowinchester.infra.crosscutting.extensoes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\configuracoes\\cacadorconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +146,8 @@
       "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\configuracoes\\sersobrenaturalconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\entidades\\sersobrenaturalentidade\\sersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\entidades\\sersobrenaturalentidade\\sersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\interfaces\\irepositorio\\sersobrenaturalrepositorio\\irepositoriosersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\interfaces\\irepositorio\\sersobrenaturalrepositorio\\irepositoriosersobrenatural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\sersobrenaturalcontrollers\\sersobrenaturalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\sersobrenaturalcontrollers\\sersobrenaturalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadacontroller\\cacadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\sersobrenaturalcomandos\\criar\\sersobrenaturalcriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,28 +166,8 @@
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\login\\cacadorloginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadacomandos\\criar\\cacadacriarvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\configuracoes\\cacadaconfiguracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4370CE-6718-4059-A351-1B333ED3A492}|src\\ArquivoWinchester.WebApi\\ArquivoWinchester.WebApi.csproj|solutionrelative:src\\arquivowinchester.webapi\\controllers\\cacadorcontrollers\\cacadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\obter\\cacadorobterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +184,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\listar\\cacadorlistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|solutionrelative:src\\arquivowinchester.dominio\\comandos\\cacadorcomandos\\listar\\cacadorlistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.infra.dados\\repositorio\\cacadorrepositorio\\repositoriocacador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2206F60F-FFFF-CE78-63AC-F80ADE88E6AE}|src\\ArquivoWinchester.Infra.Dados\\ArquivoWinchester.Infra.Dados.csproj|solutionrelative:src\\arquivowinchester.infra.dados\\repositorio\\cacadorrepositorio\\repositoriocacador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07B8E5C4-2F9A-301E-CCDF-59ADC6A7C74A}|src\\ArquivoWinchester.Dominio\\ArquivoWinchester.Dominio.csproj|c:\\users\\aluno\\desktop\\arquivowinchesterapi\\src\\arquivowinchester.dominio\\interfaces\\irepositorio\\cacadorrepositorio\\irepositoriocacador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,36 +221,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Title": "SerSobrenaturalAtualizarImagemHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T19:11:33.67Z",
+              "WhenOpened": "2026-08-19T20:24:57.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArmazenamentoImagem.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "SerSobrenaturalController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwD0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T18:38:48.871Z",
+              "WhenOpened": "2026-08-18T05:23:32.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SerSobrenaturalAtualizarImagemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T20:25:06.687Z",
               "EditorCaption": ""
             },
             {
@@ -194,252 +270,338 @@
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarHandler.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarHandler.cs",
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAlwB4AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-18T04:41:53.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IArmazenamentoImagem.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T18:15:36.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-18T19:11:30.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArquivoWinchester.Infra.CrossCutting.Extensoes",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-18T18:38:13.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CacadorConfiguracao.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T17:52:51.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "SerSobrenaturalCriarRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarRequest.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarRequest.cs",
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarRequest.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-18T04:41:23.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SerSobrenaturalConfiguracao.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ArmazenamentoImagem.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArmazenamentoImagem\\ArmazenamentoImagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T04:47:51.483Z",
+              "WhenOpened": "2026-08-18T18:38:48.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IArmazenamentoImagem.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Interfaces\\IServico\\IArmazenamentoImagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T18:15:36.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SerSobrenaturalCriarValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwD4AAABJAAAAAAAAAA==",
+              "Title": "ArquivoImagemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Dto\\ArquivoImagemDto.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Dto\\ArquivoImagemDto.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Dto\\ArquivoImagemDto.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Dto\\ArquivoImagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T04:41:42.561Z",
+              "WhenOpened": "2026-08-19T21:07:37.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "SerSobrenatural.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Entidades\\SerSobrenaturalEntidade\\SerSobrenatural.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Entidades\\SerSobrenaturalEntidade\\SerSobrenatural.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Entidades\\SerSobrenaturalEntidade\\SerSobrenatural.cs",
               "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Entidades\\SerSobrenaturalEntidade\\SerSobrenatural.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwEAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-18T04:42:45.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRepositorioSerSobrenatural.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "SerSobrenaturalAtualizarImagemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T16:45:08.733Z",
+              "WhenOpened": "2026-08-19T20:25:14.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SerSobrenaturalController.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\SerSobrenaturalControllers\\SerSobrenaturalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SerSobrenaturalAtualizarImagemValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\AtualizarImagem\\SerSobrenaturalAtualizarImagemValidation.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T05:23:32.607Z",
+              "WhenOpened": "2026-08-19T20:25:24.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SerSobrenaturalCriarValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarValidation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T04:41:42.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "SerSobrenaturalAtualizarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:57:09.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SerSobrenaturalAtualizarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:57:33.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SerSobrenaturalAtualizarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:56:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SerSobrenaturalAtualizarValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Atualizar\\SerSobrenaturalAtualizarValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:57:24.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SerSobrenaturalObterHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:43:34.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SerSobrenaturalListarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T18:50:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RepositorioCacador.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:55:22.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SerSobrenaturalObterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:43:02.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SerSobrenaturalObterResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:43:16.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SerSobrenaturalObterValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Obter\\SerSobrenaturalObterValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:43:26.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SerSobrenaturalListarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarResponse.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T18:50:37.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SerSobrenaturalListarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Listar\\SerSobrenaturalListarRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T18:50:28.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "CacadaController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
               "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadaController\\CacadaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:54:48.381Z"
+              "WhenOpened": "2026-08-17T20:54:48.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SerSobrenaturalCriarResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "CacadorController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T04:41:32.958Z"
+              "WhenOpened": "2026-08-17T18:40:04.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RepositorioSerSobrenatural.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T04:47:39.524Z"
+              "DocumentIndex": 28,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Aluno\\AppData\\Roaming\\Microsoft\\UserSecrets\\acf06bfd-5de8-4e34-9ec3-0e4f7cb336e1\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\acf06bfd-5de8-4e34-9ec3-0e4f7cb336e1\\secrets.json",
+              "ToolTip": "C:\\Users\\Aluno\\AppData\\Roaming\\Microsoft\\UserSecrets\\acf06bfd-5de8-4e34-9ec3-0e4f7cb336e1\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\acf06bfd-5de8-4e34-9ec3-0e4f7cb336e1\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-19T17:48:39.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CacadaCriarRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:07:31.155Z"
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-18T19:11:30.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CacadaCriarHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABIAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:07:58.246Z"
+              "WhenOpened": "2026-08-18T19:11:33.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CacadorCriarHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:21:40.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CacadorLoginHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIAwwCcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:45:28.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CacadaCriarResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:07:38.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CacadaCriarValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T20:07:47.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "CacadaConfiguracao.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadaConfiguracao.cs",
@@ -451,7 +613,151 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
+              "Title": "CacadaCriarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:58.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CacadaCriarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:31.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CacadaCriarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:38.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.CrossCutting.Extensoes\\ArquivoWinchester.Infra.CrossCutting.Extensoes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-18T18:38:13.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CacadorConfiguracao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\CacadorConfiguracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T17:52:51.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SerSobrenaturalConfiguracao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Configuracoes\\SerSobrenaturalConfiguracao.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T04:47:51.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRepositorioSerSobrenatural.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\SerSobrenaturalRepositorio\\IRepositorioSerSobrenatural.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T16:45:08.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SerSobrenaturalCriarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\SerSobrenaturalComandos\\Criar\\SerSobrenaturalCriarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T04:41:32.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RepositorioSerSobrenatural.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\SerSobrenaturalRepositorio\\RepositorioSerSobrenatural.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T04:47:39.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CacadorCriarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Criar\\CacadorCriarHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:21:40.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CacadorLoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginHandler.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAIAwwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:45:28.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CacadaCriarValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "RelativeToolTip": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadaComandos\\Criar\\CacadaCriarValidation.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:07:47.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "CacadorObterHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterHandler.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterHandler.cs",
@@ -463,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "CacadorObterResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterResponse.cs",
@@ -475,19 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CacadorController.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.WebApi\\Controllers\\CacadorControllers\\CacadorController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:40:04.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 42,
               "Title": "CacadorObterRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterRequest.cs",
@@ -499,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 45,
               "Title": "CacadorListarHandler.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarHandler.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarHandler.cs",
@@ -511,19 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "RepositorioCacador.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
-              "RelativeDocumentMoniker": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
-              "RelativeToolTip": "src\\ArquivoWinchester.Infra.Dados\\Repositorio\\CacadorRepositorio\\RepositorioCacador.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wCQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T18:55:22.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "IRepositorioCacador.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\CacadorRepositorio\\IRepositorioCacador.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Interfaces\\IRepositorio\\CacadorRepositorio\\IRepositorioCacador.cs",
@@ -535,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "CacadorObterValidation.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterValidation.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Obter\\CacadorObterValidation.cs",
@@ -547,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "CacadorListarResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarResponse.cs",
@@ -559,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "CacadorListarRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Listar\\CacadorListarRequest.cs",
@@ -571,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 51,
               "Title": "CacadorLoginValidation.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginValidation.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginValidation.cs",
@@ -583,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 52,
               "Title": "CacadorLoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginResponse.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginResponse.cs",
@@ -595,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 50,
               "Title": "CacadorLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\ArquivoWinchesterAPI\\src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginRequest.cs",
               "RelativeDocumentMoniker": "src\\ArquivoWinchester.Dominio\\Comandos\\CacadorComandos\\Login\\CacadorLoginRequest.cs",

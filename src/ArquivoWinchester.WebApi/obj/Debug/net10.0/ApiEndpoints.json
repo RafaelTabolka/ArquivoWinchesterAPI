@@ -75,6 +75,59 @@
   },
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "ListarSeresSobrenaturais",
+    "RelativePath": "api/SerSobrenatural/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "AtualizarSerSobrenatural",
+    "RelativePath": "api/SerSobrenatural/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar.SerSobrenaturalAtualizarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "AtualizarImagemSerSobrenatural",
+    "RelativePath": "api/SerSobrenatural/atualizarImagem",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "arquivoImagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
     "Method": "CadastrarSerSobrenatural",
     "RelativePath": "api/SerSobrenatural/cadastrar",
     "HttpMethod": "POST",
@@ -82,11 +135,46 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar.SerSobrenaturalCriarRequest",
-        "IsRequired": true
+        "Name": "NomeEntidade",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CacadorCriadorId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContraMedida",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NivelRisco",
+        "Type": "ArquivoWinchester.Dominio.Enumeradores.SerSobrenaturalEnum.EnumNivelRiscoSerSobrenatural",
+        "IsRequired": false
+      },
+      {
+        "Name": "SinaisComuns",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "arquivoImagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "ListarSeresSobrenaturais",
+    "RelativePath": "api/SerSobrenatural/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]
