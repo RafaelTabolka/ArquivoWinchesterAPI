@@ -133,6 +133,41 @@
         }
       }
     },
+    "/api/SerSobrenatural/listar": {
+      "get": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SerSobrenatural/{id}": {
+      "get": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/SerSobrenatural/cadastrar": {
       "post": {
         "tags": [
@@ -140,19 +175,121 @@
         ],
         "requestBody": {
           "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "NomeEntidade": {
+                    "type": "string"
+                  },
+                  "CacadorCriadorId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "ContraMedida": {
+                    "type": "string"
+                  },
+                  "NivelRisco": {
+                    "$ref": "#/components/schemas/EnumNivelRiscoSerSobrenatural"
+                  },
+                  "SinaisComuns": {
+                    "type": "string"
+                  },
+                  "arquivoImagem": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "NomeEntidade": {
+                  "style": "form"
+                },
+                "CacadorCriadorId": {
+                  "style": "form"
+                },
+                "ContraMedida": {
+                  "style": "form"
+                },
+                "NivelRisco": {
+                  "style": "form"
+                },
+                "SinaisComuns": {
+                  "style": "form"
+                },
+                "arquivoImagem": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SerSobrenatural/atualizar": {
+      "put": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "requestBody": {
+          "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+                "$ref": "#/components/schemas/SerSobrenaturalAtualizarRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+                "$ref": "#/components/schemas/SerSobrenaturalAtualizarRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/SerSobrenaturalCriarRequest"
+                "$ref": "#/components/schemas/SerSobrenaturalAtualizarRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SerSobrenatural/atualizarImagem": {
+      "patch": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "arquivoImagem": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "arquivoImagem": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -167,29 +304,6 @@
   },
   "components": {
     "schemas": {
-      "ArquivoImagemDto": {
-        "type": "object",
-        "properties": {
-          "conteudo": {
-            "type": "string",
-            "format": "binary",
-            "nullable": true
-          },
-          "nomeArquivo": {
-            "type": "string",
-            "nullable": true
-          },
-          "tipoConteudo": {
-            "type": "string",
-            "nullable": true
-          },
-          "tamanho": {
-            "type": "integer",
-            "format": "int64"
-          }
-        },
-        "additionalProperties": false
-      },
       "CacadaCriarRequest": {
         "type": "object",
         "properties": {
@@ -336,21 +450,19 @@
         ],
         "type": "string"
       },
-      "EnumStatusSerSobrenatural": {
-        "enum": [
-          "Ativo",
-          "Inativo"
-        ],
-        "type": "string"
-      },
-      "SerSobrenaturalCriarRequest": {
+      "SerSobrenaturalAtualizarRequest": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "readOnly": true
+          },
           "nomeEntidade": {
             "type": "string",
             "nullable": true
           },
-          "cacadorCriadorId": {
+          "cacadorAtualizadorId": {
             "type": "string",
             "format": "uuid"
           },
@@ -361,15 +473,9 @@
           "nivelRisco": {
             "$ref": "#/components/schemas/EnumNivelRiscoSerSobrenatural"
           },
-          "imagem": {
-            "$ref": "#/components/schemas/ArquivoImagemDto"
-          },
           "sinaisComuns": {
             "type": "string",
             "nullable": true
-          },
-          "statusSerSobrenatural": {
-            "$ref": "#/components/schemas/EnumStatusSerSobrenatural"
           }
         },
         "additionalProperties": false

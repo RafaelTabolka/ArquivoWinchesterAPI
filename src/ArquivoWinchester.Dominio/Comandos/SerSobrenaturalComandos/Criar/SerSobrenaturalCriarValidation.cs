@@ -61,10 +61,6 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
             RuleFor(s => s.SinaisComuns)
                 .NotEmpty().WithMessage("Sinais comuns não pode ser vazio")
                 .MaximumLength(300).WithMessage("Sinais comuns deve ter 300 caracteres no máximo");
-
-            RuleFor(s => s.StatusSerSobrenatural)
-                .NotEmpty().WithMessage("Status da entidade não pode ser vazio")
-                .IsInEnum().WithMessage("Status informado é inválido");
         }
     }
 }

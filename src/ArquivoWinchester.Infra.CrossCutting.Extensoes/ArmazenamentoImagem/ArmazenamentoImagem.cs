@@ -1,4 +1,4 @@
-﻿using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar;
+﻿using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Dto;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
 
 namespace ArquivoWinchester.Infra.CrossCutting.Extensoes.ArmazenamentoImagem
@@ -6,7 +6,7 @@ namespace ArquivoWinchester.Infra.CrossCutting.Extensoes.ArmazenamentoImagem
     public sealed class ArmazenamentoImagem(
         string caminhoRaiz) : IArmazenamentoImagem
     {
-        public async Task<string> ArmazenarAsync(ArquivoImagemDto imagem)
+        public async Task<string> ArmazenarImagemAsync(ArquivoImagemDto imagem)
         {
             var extensao = Path
                 .GetExtension(imagem.NomeArquivo)
@@ -44,6 +44,23 @@ namespace ArquivoWinchester.Infra.CrossCutting.Extensoes.ArmazenamentoImagem
             await imagem.Conteudo.CopyToAsync(arquivoDestino);
 
             return $"/imagens/seres-sobrenaturais/{nomeGerado}";
+        }
+
+        public Task ExcluirImagemAsync(string imagemUrl)
+        {
+            var nomeArquivo = Path.GetFileName(imagemUrl);
+
+            var caminhoCompleto = Path.Combine(
+                caminhoRaiz,
+                "imagens",
+                "seres-sobrenaturais",
+                nomeArquivo
+            );
+
+            if (File.Exists(caminhoCompleto))
+                File.Delete(caminhoCompleto);
+
+            return Task.CompletedTask;
         }
     }
 }

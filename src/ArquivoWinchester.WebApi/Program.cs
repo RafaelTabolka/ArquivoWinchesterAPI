@@ -3,6 +3,7 @@ using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadaRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadorRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.SerSobrenaturalRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
+using ArquivoWinchester.Infra.CrossCutting.Extensoes.ArmazenamentoImagem;
 using ArquivoWinchester.Infra.CrossCutting.Extensoes.Seguranca;
 using ArquivoWinchester.Infra.Dados.Contexto;
 using ArquivoWinchester.Infra.Dados.Repositorio.CacadaRepositorio;
@@ -18,27 +19,48 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Obtém a chave utilizada para validar a assinatura do token.
-// Em desenvolvimento, seu valor vem dos Segredos do Usuário.
+// Obtém as configurações utilizadas na autenticação JWT.
 var chaveJwt =
     builder.Configuration["Jwt:Chave"]
     ?? throw new InvalidOperationException(
-        "A chave JWT não foi configurada."); //aluno
+        "A chave JWT não foi configurada.");
 
-// Obtém o emissor esperado pela API.
 var emissorJwt =
     builder.Configuration["Jwt:Emissor"]
     ?? throw new InvalidOperationException(
-        "O emissor JWT não foi configurado."); //aluno
+        "O emissor JWT não foi configurado.");
 
-// Obtém a audiência esperada pela API.
 var audienciaJwt =
     builder.Configuration["Jwt:Audiencia"]
     ?? throw new InvalidOperationException(
-        "A audiência JWT não foi configurada."); //aluno
+        "A audiência JWT não foi configurada.");
 
-var config = builder.Configuration; //aluno
-builder.Services //aluno
+// Obtém a string utilizada para conectar ao SQL Server.
+var connectionString =
+    builder.Configuration.GetConnectionString(
+        "ArquivoWinchesterConnection")
+    ?? throw new InvalidOperationException(
+        "A connection string não foi configurada.");
+
+// Adiciona suporte aos Controllers e configura a conversão para JSON.
+builder.Services
+    .AddControllers()
+    .AddJsonOptions(options =>
+    {
+        // Evita erros causados por referências circulares.
+        options.JsonSerializerOptions.ReferenceHandler =
+            ReferenceHandler.IgnoreCycles;
+
+        // Organiza o JSON retornado para facilitar sua leitura.
+        options.JsonSerializerOptions.WriteIndented = true;
+
+        // Retorna os valores dos enums como texto.
+        options.JsonSerializerOptions.Converters.Add(
+            new JsonStringEnumConverter());
+    });
+
+// Configura a autenticação da API utilizando JWT Bearer.
+builder.Services
     .AddAuthentication(
         JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -46,73 +68,96 @@ builder.Services //aluno
         options.TokenValidationParameters =
             new TokenValidationParameters
             {
-                // Valida quem gerou o token.
+                // Verifica quem emitiu o token.
                 ValidateIssuer = true,
 
-                // Valida para qual aplicação o token foi criado.
+                // Verifica para qual aplicação o token foi criado.
                 ValidateAudience = true,
 
-                // Valida se o token ainda não expirou.
+                // Verifica se o token ainda está válido.
                 ValidateLifetime = true,
 
-                // Valida a assinatura utilizando a chave configurada.
+                // Verifica a assinatura do token.
                 ValidateIssuerSigningKey = true,
 
-                // Emissor esperado.
+                // Define o emissor esperado.
                 ValidIssuer = emissorJwt,
 
-                // Audiência esperada.
+                // Define a audiência esperada.
                 ValidAudience = audienciaJwt,
 
-                // Chave utilizada para validar a assinatura.
+                // Converte a chave configurada para uma chave de segurança.
                 IssuerSigningKey =
                     new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes(
-                            chaveJwt!)
-                    ),
+                        Encoding.UTF8.GetBytes(chaveJwt)),
 
-                // Informa ao ASP.NET Core que a declaração
-                // "papel" representa o papel do usuário.
+                // Define a claim "papel" como papel do usuário.
                 RoleClaimType = "papel"
             };
-    }); //aluno
+    });
 
+// Adiciona suporte às regras de autorização.
 builder.Services.AddAuthorization();
 
-//Adiciona suporte para lidar com referências circulares
-builder.Services.AddControllers().AddJsonOptions(options => //aluno
-{
-    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
-    options.JsonSerializerOptions.WriteIndented = true;
-});
+// Registra o contexto responsável pelo acesso ao SQL Server.
+builder.Services.AddDbContext<ArquivoWinchesterContexto>(
+    options =>
+    {
+        options.UseSqlServer(connectionString);
 
-builder.Services.AddControllers();
+        // Exibe valores utilizados nas consultas durante o desenvolvimento.
+        if (builder.Environment.IsDevelopment())
+            options.EnableSensitiveDataLogging();
+    });
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// Registra os repositórios utilizados pelos Handlers.
+builder.Services.AddScoped<
+    IRepositorioCacada,
+    RepositorioCacada>();
 
-builder.Services.AddDbContext<ArquivoWinchesterContexto>(opcoes =>
-{
-    opcoes.UseSqlServer(builder.Configuration.GetConnectionString("DoCondadoAMordorConnection"))
-    .EnableSensitiveDataLogging();
-});
+builder.Services.AddScoped<
+    IRepositorioCacador,
+    RepositorioCacador>();
 
-builder.Services.AddScoped<IRepositorioCacada, RepositorioCacada>();
-builder.Services.AddScoped<IRepositorioCacador, RepositorioCacador>();
-builder.Services.AddScoped<IRepositorioSerSobrenatural, RepositorioSerSobrenatural>();
+builder.Services.AddScoped<
+    IRepositorioSerSobrenatural,
+    RepositorioSerSobrenatural>();
 
-builder.Services.AddScoped<IPasswordHasher<Cacador>, PasswordHasher<Cacador>>();
-builder.Services.AddScoped<IServicoToken, ServicoToken>(); //aluno
+// Registra o serviço utilizado para gerar e validar hash de senha.
+builder.Services.AddScoped<
+    IPasswordHasher<Cacador>,
+    PasswordHasher<Cacador>>();
 
+// Registra o serviço responsável pela geração do token JWT.
+builder.Services.AddScoped<
+    IServicoToken,
+    ServicoToken>();
+
+// Obtém o caminho físico da pasta pública wwwroot.
+var caminhoRaizImagens =
+    builder.Environment.WebRootPath
+    ?? Path.Combine(
+        builder.Environment.ContentRootPath,
+        "wwwroot");
+
+// Registra o serviço responsável por armazenar as imagens.
+builder.Services.AddScoped<IArmazenamentoImagem>(_ =>
+    new ArmazenamentoImagem(caminhoRaizImagens));
+
+// Localiza e registra os Requests e Handlers do MediatR.
 var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
+builder.Services.AddMediatR(configuration =>
+    configuration.RegisterServicesFromAssemblies(
+        assemblies));
+
+// Permite que o Swagger encontre os endpoints da API.
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen(options => //aluno
+// Configura a documentação e os testes pelo Swagger.
+builder.Services.AddSwaggerGen(options =>
 {
-    // Informa ao Swagger que a API utiliza
-    // autenticação HTTP do tipo Bearer com JWT.
+    // Informa ao Swagger que a API utiliza JWT Bearer.
     options.AddSecurityDefinition(
         "Bearer",
         new OpenApiSecurityScheme
@@ -123,51 +168,43 @@ builder.Services.AddSwaggerGen(options => //aluno
             Type = SecuritySchemeType.Http,
             Scheme = "bearer",
             BearerFormat = "JWT"
-        }
-    );
+        });
 
-    // Faz o Swagger enviar o token no cabeçalho
-    // Authorization das requisições.
-    options.AddSecurityRequirement(document => //aluno
+    // Faz o Swagger enviar o token nas requisições protegidas.
+    options.AddSecurityRequirement(document =>
         new OpenApiSecurityRequirement
         {
             [
                 new OpenApiSecuritySchemeReference(
                     "Bearer",
-                    document
-                )
+                    document)
             ] = []
-        }
-    );
+        });
 });
 
-builder.Services.AddControllers() //aluno
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-    });
-
+// Constrói a aplicação com as configurações anteriores.
 var app = builder.Build();
 
-
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.MapOpenApi();
-//}
+// Gera o documento utilizado pelo Swagger.
 app.UseSwagger();
 
+// Disponibiliza a interface visual do Swagger.
 app.UseSwaggerUI();
 
+// Redireciona requisições HTTP para HTTPS.
 app.UseHttpsRedirection();
 
+// Disponibiliza publicamente os arquivos da pasta wwwroot.
+app.UseStaticFiles();
+
 // Lê e valida o token JWT enviado na requisição.
-// Quando o token é válido, cria o usuário autenticado
-// e disponibiliza suas declarações, incluindo "papel".
 app.UseAuthentication();
 
+// Verifica se o usuário possui autorização para acessar a rota.
 app.UseAuthorization();
 
+// Mapeia as rotas definidas nos Controllers.
 app.MapControllers();
 
+// Inicia a aplicação e começa a receber requisições.
 app.Run();

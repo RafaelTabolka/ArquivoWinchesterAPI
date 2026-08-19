@@ -42,7 +42,6 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
             Guid cacadorAtualizadorId,
             string contramedida,
             EnumNivelRiscoSerSobrenatural nivelRiscoSerSobrenatural,
-            string imagemUrl,
             string sinaisComuns
         )
         {
@@ -50,7 +49,6 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
             CacadorAtualizadorId = cacadorAtualizadorId;
             Contramedida = contramedida;
             NivelRiscoSerSobrenatural = nivelRiscoSerSobrenatural;
-            ImagemUrl = imagemUrl;
             SinaisComuns = sinaisComuns;
         }
 
@@ -62,6 +60,11 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
         public void Desativar()
         {
             StatusSerSobrenatural = EnumStatusSerSobrenatural.Inativo;
+        }
+
+        public void AtualizarImagem(string imagemUrl)
+        {
+            ImagemUrl = imagemUrl;
         }
     }
 }
