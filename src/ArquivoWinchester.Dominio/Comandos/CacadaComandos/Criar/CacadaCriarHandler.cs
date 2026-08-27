@@ -17,7 +17,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
 
             if (!validacaoResponse.IsValid)
                 throw new ValidationException(validacaoResponse.Errors);
-
+            
             var cacada = new Cacada(
                 request.Titulo,
                 request.CacadorCriadorId,

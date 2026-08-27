@@ -7,8 +7,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
     {
         public string Titulo { get; set; } = string.Empty;
         public Guid CacadorCriadorId { get; set; }
-        public Guid? CacadorAtualizadorId { get; set; }
-        public EnumStatusCacada StatusCacada { get; set; }
         public EnumDificuldadeCacada DificuldadeCacada { get; set; }
         public string Cidade { get; set; } = string.Empty;
         public string Uf { get; set; } = string.Empty;

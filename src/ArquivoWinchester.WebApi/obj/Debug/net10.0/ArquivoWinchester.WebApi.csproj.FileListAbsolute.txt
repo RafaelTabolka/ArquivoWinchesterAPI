@@ -360,3 +360,4 @@ C:\Users\Aluno\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.WebApi\obj\Deb
 C:\Users\Aluno\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.WebApi\obj\Debug\net10.0\ArquivoWinchester.WebApi.pdb
 C:\Users\Aluno\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.WebApi\obj\Debug\net10.0\ArquivoWinchester.WebApi.genruntimeconfig.cache
 C:\Users\Aluno\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.WebApi\obj\Debug\net10.0\ref\ArquivoWinchester.WebApi.dll
+C:\Users\rafae\Desktop\ArquivoWinchesterAPI\src\ArquivoWinchester.WebApi\bin\Debug\net10.0\ArquivoWinchester.WebApi.staticwebassets.runtime.json

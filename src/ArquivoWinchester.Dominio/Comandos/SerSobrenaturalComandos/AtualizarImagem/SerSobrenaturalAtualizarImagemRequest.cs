@@ -6,7 +6,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarIm
     public class SerSobrenaturalAtualizarImagemRequest :
         IRequest<SerSobrenaturalAtualizarImagemResponse>
     {
-        public Guid Id { get; }
+        public Guid Id { get; set; }
         internal ArquivoImagemDto Imagem { get; set; } = null!;
 
         public void DefinirImagem(ArquivoImagemDto imagem)
