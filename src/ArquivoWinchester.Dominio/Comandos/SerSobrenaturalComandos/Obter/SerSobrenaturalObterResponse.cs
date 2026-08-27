@@ -20,7 +20,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Obter
         public Guid? CacadorAtualizadorId { get; } = cacadorAtualizadorId;
         public string ContraMedida { get; set; } = contraMedida;
         public EnumNivelRiscoSerSobrenatural NivelRisco { get; set; } = nivelRisco;
-        internal string ImagemUrl { get; set; } = imagemUrl;
+        public string ImagemUrl { get; set; } = imagemUrl;
         public string SinaisComuns { get; set; } = sinaisComuns;
         public EnumStatusSerSobrenatural StatusSerSobrenatural { get; set; } = statusSerSobrenatural;
     }

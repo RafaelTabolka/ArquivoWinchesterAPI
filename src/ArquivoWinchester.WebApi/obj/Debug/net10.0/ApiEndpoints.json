@@ -1,6 +1,38 @@
 [
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "ObterCacadaPorId",
+    "RelativePath": "api/Cacada/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "AtualizarCacada",
+    "RelativePath": "api/Cacada/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar.CacadaAtualizarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
     "Method": "CadastrarCacada",
     "RelativePath": "api/Cacada/cadastrar",
     "HttpMethod": "POST",
@@ -10,6 +42,32 @@
       {
         "Name": "request",
         "Type": "ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar.CacadaCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "ListarCacadas",
+    "RelativePath": "api/Cacada/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "ResolverCacada",
+    "RelativePath": "api/Cacada/resolver/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

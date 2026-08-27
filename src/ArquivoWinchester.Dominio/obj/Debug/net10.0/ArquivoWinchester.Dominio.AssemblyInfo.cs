@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArquivoWinchester.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c3fa79fdd08d29391b4a890194cb8d438cce8cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48759ac1cefeac1a87e3636c91853a7b84796150")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArquivoWinchester.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArquivoWinchester.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

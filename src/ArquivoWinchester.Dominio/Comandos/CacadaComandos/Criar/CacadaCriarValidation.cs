@@ -13,10 +13,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
             RuleFor(c => c.CacadorCriadorId)
                 .NotEmpty().WithMessage("O id do criador da entidade não pode ser vazio");
             
-            RuleFor(c => c.StatusCacada)
-                .NotEmpty().WithMessage("O status da caçada não pode ser vazio")
-                .IsInEnum().WithMessage("Status da caçada incorreto");
-            
             RuleFor(c => c.DificuldadeCacada)
                 .NotEmpty().WithMessage("A dificuldade da caçada não pode ser vazio")
                 .IsInEnum().WithMessage("Dificuldade da caçada incorreto");

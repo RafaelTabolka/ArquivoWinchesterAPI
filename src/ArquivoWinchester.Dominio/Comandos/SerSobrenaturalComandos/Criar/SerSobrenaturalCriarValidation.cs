@@ -8,10 +8,10 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
         
         private static readonly string[] TiposPermitidos =
         {
-            "imagem/jpg",
-            "imagem/jpeg",
-            "imagem/png",
-            "imagem/webp"
+            "image/jpg",
+            "image/jpeg",
+            "image/png",
+            "image/webp"
         };
         
         private static readonly string[] ExtensoesPermitidas =
@@ -47,16 +47,16 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
                 .Must(imagem => imagem.Tamanho > 0)
                 .WithMessage("O arquivo da imagem está vazio")
 
-                .Must(imagem => imagem.Tamanho < TamanhoMaximoImagem)
+                .Must(imagem => imagem.Tamanho <= TamanhoMaximoImagem)
                 .WithMessage("A imagem deve possuir no máximo 5 MB")
 
                 .Must(imagem => TiposPermitidos.Contains(
                     imagem.TipoConteudo    
-                )).WithMessage("O formato da imagem deve ser JPG, JPEG, PNG ou WebP")
+                )).WithMessage("O formato da imagem deve ser jpg, jpeg, png ou webp")
 
                 .Must(imagem => ExtensoesPermitidas.Contains(
                     Path.GetExtension(imagem.NomeArquivo)))
-                .WithMessage("A extensão da imagem deve ser .JPG, .JPEG, .PNG ou .WebP");
+                .WithMessage("A extensão da imagem deve ser .jpg, .jpeg, .png ou .webp");
 
             RuleFor(s => s.SinaisComuns)
                 .NotEmpty().WithMessage("Sinais comuns não pode ser vazio")

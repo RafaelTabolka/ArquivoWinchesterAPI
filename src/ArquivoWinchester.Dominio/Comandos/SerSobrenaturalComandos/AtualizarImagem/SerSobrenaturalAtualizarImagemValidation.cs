@@ -9,10 +9,10 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarIm
 
         private static readonly string[] TiposPermitidos =
         {
-            "imagem/jpg",
-            "imagem/jpeg",
-            "imagem/png",
-            "imagem/webp"
+            "image/jpg",
+            "image/jpeg",
+            "image/png",
+            "image/webp"
         };
 
         private static readonly string[] ExtensoesPermitidas =
