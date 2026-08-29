@@ -1,16 +1,19 @@
 ﻿using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Arquivar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar;
+using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Deletar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Iniciar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Listar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Obter;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Reabrir;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Resolver;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ArquivoWinchester.WebApi.Controllers.CacadaController
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CacadaController(ISender mediator) : ControllerBase
@@ -78,6 +81,15 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadaController
             [FromRoute] Guid id)
         {
             var request = new CacadaReabrirRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpDelete("deletar/{id}")]
+        public async Task<IActionResult> DeletarCacada(
+            [FromRoute] Guid id)
+        {
+            var request = new CacadaDeletarRequest(id);
             var response = await mediator.Send(request);
             return Ok(response);
         }

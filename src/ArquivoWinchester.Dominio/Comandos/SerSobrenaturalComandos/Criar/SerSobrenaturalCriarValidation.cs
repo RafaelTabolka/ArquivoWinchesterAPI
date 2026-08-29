@@ -24,7 +24,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
 
         public SerSobrenaturalCriarValidation()
         {
-            RuleFor(s => s.NomeEntidade)
+            RuleFor(s => s.NomeSerSobrenatural)
                 .NotEmpty().WithMessage("Nome da entidade não pode ser vazio")
                 .MaximumLength(100).WithMessage("Nome da entidade não pode ter mais que 100 caracteres");
 

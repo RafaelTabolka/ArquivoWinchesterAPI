@@ -9,6 +9,13 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Desativar
         public async Task<SerSobrenaturalDesativarResponse> Handle(
             SerSobrenaturalDesativarRequest request, CancellationToken cancellationToken)
         {
+            var existeSerComCacadaAbertaOuInvestigando = await repositorioSerSobrenatural
+                .ExisteSerSobrenaturalComCacadaAbertaOuInvestigandoAsync(request.Id);
+
+            if (existeSerComCacadaAbertaOuInvestigando)
+                return new SerSobrenaturalDesativarResponse("Ser sobrenatural possui caçadas " +
+                    "atreladas com status aberto/investigando");
+
             var serSobrenatual = await repositorioSerSobrenatural.ObterPorIdAsync(request.Id);
 
             if (serSobrenatual == null)

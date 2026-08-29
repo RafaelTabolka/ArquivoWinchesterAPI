@@ -16,7 +16,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Listar
             var seresSobrenaturaisResponse = seresSobrenaturais
                 .Select(ser => new SerSobrenaturalListarResponse(
                     ser.Id,
-                    ser.NomeEntidade,
+                    ser.NomeSerSobrenatural,
                     ser.CacadorCriadorId,
                     ser.CacadorAtualizadorId,
                     ser.Contramedida,

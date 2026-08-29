@@ -14,7 +14,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Atualizar
             if (cacador == null)
                 return new CacadorAtualizarResponse("Caçador não encontrado");
 
-            var existeNome = await repositorioCacador.ExiteNomeEditarAsync(request.Id, request.NomeCacador);
+            var existeNome = await repositorioCacador.ExisteNomeEditarAsync(request.Id, request.NomeCacador);
 
             if (existeNome)
                 return new CacadorAtualizarResponse("Nome do caçador já em uso");

@@ -1,11 +1,14 @@
 ﻿using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Ativar;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Atualizar;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar;
+using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Deletar;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Desativar;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Listar;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Login;
 using ArquivoWinchester.Dominio.Comandos.CacadorComandos.Obter;
+using ArquivoWinchester.Dominio.Enumeradores.CacadorEnum;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
@@ -14,6 +17,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
     [ApiController]
     public class CacadorController(ISender mediator) : ControllerBase
     {
+        [Authorize]
         [HttpGet("listar")]
         public async Task<IActionResult> ListarCacadores()
         {
@@ -22,6 +26,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Ok(response);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> ObterCacadorPorId(
             [FromRoute] Guid id)
@@ -31,6 +36,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Ok(response);
         }
 
+        [AllowAnonymous]
         [HttpPost("cadastrar")]
         public async Task<IActionResult> CadastrarCacador(CacadorCriarRequest request)
         {
@@ -38,6 +44,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Created("Criado", response);
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login(CacadorLoginRequest request)
         {
@@ -45,6 +52,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Created("Login realizado com sucesso", response);
         }
 
+        [Authorize]
         [HttpPut("atualizar")]
         public async Task<IActionResult> AtualizarCacador(CacadorAtualizarRequest request)
         {
@@ -52,6 +60,7 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Ok(response);
         }
 
+        [Authorize(Roles= nameof(EnumPapelCacador.Admin))]
         [HttpPatch("ativar/{id}")]
         public async Task<IActionResult> AtivarCacador(
             [FromRoute] Guid id)
@@ -61,11 +70,22 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadorControllers
             return Ok(response);
         }
 
+        [Authorize(Roles = nameof(EnumPapelCacador.Admin))]
         [HttpPatch("desativar/{id}")]
         public async Task<IActionResult> DesativarCacador(
             [FromRoute] Guid id)
         {
             var request = new CacadorDesativarRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [Authorize(Roles = nameof(EnumPapelCacador.Admin))]
+        [HttpDelete("deletar/{id}")]
+        public async Task<IActionResult> DeletarCacador(
+            [FromRoute] Guid id)
+        {
+            var request = new CacadorDeletarRequest(id);
             var response = await mediator.Send(request);
             return Ok(response);
         }

@@ -14,7 +14,7 @@ namespace ArquivoWinchester.Infra.Dados.Repositorio.CacadorRepositorio
             return await DbSet.AnyAsync(cacador => cacador.NomeCacador == nome);
         }
 
-        public async Task<bool> ExiteNomeEditarAsync(Guid id, string nome)
+        public async Task<bool> ExisteNomeEditarAsync(Guid id, string nome)
         {
             return await DbSet.AnyAsync(
                 cacador => cacador.Id != id && cacador.NomeCacador == nome

@@ -18,7 +18,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Obter
 
             var serSobrenaturalResponse = new SerSobrenaturalObterResponse(
                 serSobrenatural.Id,
-                serSobrenatural.NomeEntidade,
+                serSobrenatural.NomeSerSobrenatural,
                 serSobrenatural.CacadorCriadorId,
                 serSobrenatural.CacadorAtualizadorId,
                 serSobrenatural.Contramedida,

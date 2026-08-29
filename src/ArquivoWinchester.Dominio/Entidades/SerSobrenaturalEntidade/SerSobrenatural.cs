@@ -7,7 +7,7 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
 {
     public class SerSobrenatural : EntidadeBase
     {
-        public string NomeEntidade { get; private set; } = string.Empty;
+        public string NomeSerSobrenatural { get; private set; } = string.Empty;
         public Guid CacadorCriadorId { get; private set; }
         public Cacador Cacador { get; private set; } = null!;
         public List<Cacada> Cacadas { get; private set; } = new();
@@ -19,7 +19,7 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
         public EnumStatusSerSobrenatural StatusSerSobrenatural { get; private set; }
 
         public SerSobrenatural(
-            string nomeEntidade,
+            string nomeSerSobrenatural,
             Guid cacadorCriadorId,
             string contramedida,
             EnumNivelRiscoSerSobrenatural nivelRiscoSerSobrenatural,
@@ -28,7 +28,7 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
         )
         {
             Id = Guid.NewGuid();
-            NomeEntidade = nomeEntidade;
+            NomeSerSobrenatural = nomeSerSobrenatural;
             CacadorCriadorId = cacadorCriadorId;
             Contramedida = contramedida;
             NivelRiscoSerSobrenatural = nivelRiscoSerSobrenatural;
@@ -38,14 +38,14 @@ namespace ArquivoWinchester.Dominio.Entidades.SerSobrenaturalEntidade
         }
 
         public void Atualizar(
-            string nomeEntidade,
+            string nomeSerSobrenatural,
             Guid cacadorAtualizadorId,
             string contramedida,
             EnumNivelRiscoSerSobrenatural nivelRiscoSerSobrenatural,
             string sinaisComuns
         )
         {
-            NomeEntidade = nomeEntidade;
+            NomeSerSobrenatural = nomeSerSobrenatural;
             CacadorAtualizadorId = cacadorAtualizadorId;
             Contramedida = contramedida;
             NivelRiscoSerSobrenatural = nivelRiscoSerSobrenatural;

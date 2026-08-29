@@ -31,7 +31,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Listar
                             cacada.Uf,
                             new SerSobrenaturalDaCacadaDto(
                                 cacada.SerSobrenatural.Id,
-                                cacada.SerSobrenatural.NomeEntidade
+                                cacada.SerSobrenatural.NomeSerSobrenatural
                             ),
                             cacada.Latitude,
                             cacada.Longitude,
@@ -41,7 +41,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Listar
                     cacador.SeresSobrenaturais
                     .Select(ser => new SerSobrenaturalCadastradoDto(
                         ser.Id,
-                        ser.NomeEntidade,
+                        ser.NomeSerSobrenatural,
                         ser.CacadorAtualizadorId,
                         ser.StatusSerSobrenatural
                     )).ToList(),
