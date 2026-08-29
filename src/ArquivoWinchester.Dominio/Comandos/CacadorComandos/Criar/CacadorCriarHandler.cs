@@ -3,7 +3,6 @@ using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadorRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar
 {
@@ -16,12 +15,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar
         public async Task<CacadorCriarResponse> Handle(
             CacadorCriarRequest request, CancellationToken cancellationToken)
         {
-            //var validacao = new CacadorCriarValidation();
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var existeNome = await repositorioCacador.ExisteNomeCadastrarAsync(request.NomeCacador);
 
             if (existeNome)

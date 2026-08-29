@@ -1,7 +1,6 @@
 ﻿using ArquivoWinchester.Dominio.Interfaces.IRepositorio.SerSobrenaturalRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
 using MediatR;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarImagem
 {
@@ -15,13 +14,6 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarIm
             SerSobrenaturalAtualizarImagemRequest request, 
             CancellationToken cancellationToken)
         {
-            //var validacao = new SerSobrenaturalAtualizarImagemValidation();
-
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var serSobrenatural = await repositorioSerSobrenatural
                 .ObterPorIdAsync(request.Id);
 

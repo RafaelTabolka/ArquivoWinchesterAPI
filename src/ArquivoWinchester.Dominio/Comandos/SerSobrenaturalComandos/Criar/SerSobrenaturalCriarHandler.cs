@@ -2,7 +2,6 @@
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.SerSobrenaturalRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
 using MediatR;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
 {
@@ -14,13 +13,6 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
         public async Task<SerSobrenaturalCriarResponse> Handle(
             SerSobrenaturalCriarRequest request, CancellationToken cancellationToken)
         {
-            //var validacao = new SerSobrenaturalCriarValidation();
-
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var existeNome = await repositorioSerSobrenatural.ExisteNomeSerSobrenaturalCadastrarAsync(request.NomeSerSobrenatural);
 
             if (existeNome)

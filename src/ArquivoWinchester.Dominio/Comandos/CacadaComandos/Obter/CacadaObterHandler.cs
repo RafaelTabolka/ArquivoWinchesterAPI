@@ -1,6 +1,5 @@
 ﻿using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadaRepositorio;
 using MediatR;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Obter
 {
@@ -10,13 +9,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Obter
         public async Task<CacadaObterResponse> Handle(
             CacadaObterRequest request, CancellationToken cancellationToken)
         {
-            //var validacao = new CacadaObterValidation();
-
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var cacada = await repositorioCacada.ObterPorIdAsync(request.Id);
 
             if (cacada == null)
