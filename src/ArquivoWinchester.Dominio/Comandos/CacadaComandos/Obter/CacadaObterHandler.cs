@@ -10,12 +10,12 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Obter
         public async Task<CacadaObterResponse> Handle(
             CacadaObterRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new CacadaObterValidation();
+            //var validacao = new CacadaObterValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var cacada = await repositorioCacada.ObterPorIdAsync(request.Id);
 

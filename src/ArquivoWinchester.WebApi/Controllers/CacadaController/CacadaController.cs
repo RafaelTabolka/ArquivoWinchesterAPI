@@ -1,7 +1,10 @@
-﻿using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar;
+﻿using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Arquivar;
+using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar;
+using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Iniciar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Listar;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Obter;
+using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Reabrir;
 using ArquivoWinchester.Dominio.Comandos.CacadaComandos.Resolver;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -43,11 +46,38 @@ namespace ArquivoWinchester.WebApi.Controllers.CacadaController
             return Created("Criado", response);
         }
 
+        [HttpPatch("iniciarInvestigacao/{id}")]
+        public async Task<IActionResult> IniciarCacada(
+            [FromRoute] Guid id)
+        {
+            var request = new CacadaIniciarRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
         [HttpPatch("resolver/{id}")]
         public async Task<IActionResult> ResolverCacada(
             [FromRoute] Guid id)
         {
             var request = new CacadaResolverRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPatch("arquivar/{id}")]
+        public async Task<IActionResult> ArquivarCacada(
+            [FromRoute] Guid id)
+        {
+            var request = new CacadaArquivarRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPatch("reabrir/{id}")]
+        public async Task<IActionResult> ReabrirCacada(
+            [FromRoute] Guid id)
+        {
+            var request = new CacadaReabrirRequest(id);
             var response = await mediator.Send(request);
             return Ok(response);
         }

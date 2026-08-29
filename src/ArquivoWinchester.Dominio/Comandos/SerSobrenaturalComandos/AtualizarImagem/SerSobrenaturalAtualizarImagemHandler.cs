@@ -15,12 +15,12 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarIm
             SerSobrenaturalAtualizarImagemRequest request, 
             CancellationToken cancellationToken)
         {
-            var validacao = new SerSobrenaturalAtualizarImagemValidation();
+            //var validacao = new SerSobrenaturalAtualizarImagemValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var serSobrenatural = await repositorioSerSobrenatural
                 .ObterPorIdAsync(request.Id);
