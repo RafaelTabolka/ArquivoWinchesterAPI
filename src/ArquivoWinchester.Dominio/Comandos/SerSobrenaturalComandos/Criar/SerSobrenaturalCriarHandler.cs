@@ -21,10 +21,15 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
             //if (!validacaoResponse.IsValid)
             //    throw new ValidationException(validacaoResponse.Errors);
 
+            var existeNome = await repositorioSerSobrenatural.ExisteNomeSerSobrenaturalCadastrarAsync(request.NomeSerSobrenatural);
+
+            if (existeNome)
+                return new SerSobrenaturalCriarResponse("Nome do ser sobrenatural já em uso");
+
             var imagemUrl = await armazenamentoImagem.ArmazenarImagemAsync(request.Imagem);
 
             var serSobrenatural = new SerSobrenatural(
-                request.NomeEntidade,
+                request.NomeSerSobrenatural,
                 request.CacadorCriadorId,
                 request.ContraMedida,
                 request.NivelRisco,

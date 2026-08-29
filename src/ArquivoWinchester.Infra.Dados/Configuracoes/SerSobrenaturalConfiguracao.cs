@@ -10,7 +10,7 @@ namespace ArquivoWinchester.Infra.Dados.Configuracoes
         {
             builder.HasKey(s => s.Id);
 
-            builder.Property(s => s.NomeEntidade)
+            builder.Property(s => s.NomeSerSobrenatural)
                 .IsRequired()
                 .HasMaxLength(100);
 

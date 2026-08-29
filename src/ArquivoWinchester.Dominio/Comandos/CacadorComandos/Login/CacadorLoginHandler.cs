@@ -1,4 +1,5 @@
 ﻿using ArquivoWinchester.Dominio.Entidades.CacadorEntidade;
+using ArquivoWinchester.Dominio.Enumeradores.CacadorEnum;
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadorRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IServico;
 using MediatR;
@@ -29,6 +30,9 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Login
 
             if (cacador == null)
                 throw new UnauthorizedAccessException("Usuário ou senha incorretos");
+
+            if (cacador.StatusCacador == EnumStatusCacador.Inativo)
+                throw new Exception("Caçador inativo. Acesso não permitido");
 
             var resultadoSenha = senhaHasher.VerifyHashedPassword(
                 cacador,

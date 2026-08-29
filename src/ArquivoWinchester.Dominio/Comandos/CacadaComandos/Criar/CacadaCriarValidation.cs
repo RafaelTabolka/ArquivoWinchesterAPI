@@ -12,7 +12,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
 
             RuleFor(c => c.CacadorCriadorId)
                 .NotEmpty().WithMessage("O id do criador da entidade não pode ser vazio");
-            
+
             RuleFor(c => c.DificuldadeCacada)
                 .NotEmpty().WithMessage("A dificuldade da caçada não pode ser vazio")
                 .IsInEnum().WithMessage("Dificuldade da caçada incorreto");
@@ -29,18 +29,14 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
                 .NotEmpty().WithMessage("O id do ser sobrenatural não pode ser vazio");
 
             RuleFor(c => c.Latitude)
-                .NotEmpty().WithMessage("Latitude não pode ser vazio")
-                .GreaterThanOrEqualTo(-90).WithMessage("Somente valores entre -90 a 90 " +
-                "são permitidos para latitude.")
-                .LessThanOrEqualTo(90).WithMessage("Somente valores entre -90 a 90 " +
-                "são permitidos para latitude.");
+                .InclusiveBetween(-90, 90)
+                .WithMessage(
+                    "Somente valores entre -90 e 90 são permitidos para latitude.");
 
             RuleFor(c => c.Longitude)
-                .NotEmpty().WithMessage("Longitude não pode ser vazio")
-                .GreaterThanOrEqualTo(-180).WithMessage("Somente valores entre -180 a 180 " +
-                "são permitidos para longitude.")
-                .LessThanOrEqualTo(180).WithMessage("Somente valores entre -180 a 180 " +
-                "são permitidos para longitude.");
+                .InclusiveBetween(-180, 180)
+                .WithMessage(
+                    "Somente valores entre -180 e 180 são permitidos para longitude.");
 
             RuleFor(c => c.DataCacada)
                 .NotEmpty().WithMessage("Data da caçada não pode ser vazia");

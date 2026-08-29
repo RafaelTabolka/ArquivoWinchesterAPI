@@ -6,7 +6,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
 {
     public class SerSobrenaturalCriarRequest : IRequest<SerSobrenaturalCriarResponse>
     {
-        public string NomeEntidade { get; set; } = string.Empty;
+        public string NomeSerSobrenatural { get; set; } = string.Empty;
         public Guid CacadorCriadorId { get; set; }
         public string ContraMedida { get; set; } = string.Empty;
         public EnumNivelRiscoSerSobrenatural NivelRisco { get; set; }

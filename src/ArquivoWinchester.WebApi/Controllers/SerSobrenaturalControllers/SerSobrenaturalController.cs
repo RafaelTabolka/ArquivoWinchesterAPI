@@ -2,14 +2,17 @@
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarImagem;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar;
+using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Deletar;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Dto;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Listar;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Obter;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SerSobrenaturalController(ISender mediator) : ControllerBase
@@ -92,6 +95,15 @@ namespace ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers
             [FromForm] Guid id)
         {
             var request = new SerSobrenaturalAtivarRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpDelete("deletar/{id}")]
+        public async Task<IActionResult> DeletarSerSobrenatural(
+            [FromForm] Guid id)
+        {
+            var request = new SerSobrenaturalDeletarRequest(id);
             var response = await mediator.Send(request);
             return Ok(response);
         }

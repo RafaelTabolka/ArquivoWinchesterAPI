@@ -16,8 +16,14 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar
             if (serSobrenatural == null)
                 return new SerSobrenaturalAtualizarResponse("Ser sobrenatural não encontrado");
 
+            var existeNome = await repositorioSerSobrenatural
+                .ExisteNomeSerSobrenaturalAtualizarAsync(request.Id, request.NomeSerSobrenatural);
+
+            if (existeNome)
+                return new SerSobrenaturalAtualizarResponse("Nome do ser sobrenatural já em uso");
+
             serSobrenatural.Atualizar(
-                request.NomeEntidade,
+                request.NomeSerSobrenatural,
                 request.CacadorAtualizadorId,
                 request.ContraMedida,
                 request.NivelRisco,

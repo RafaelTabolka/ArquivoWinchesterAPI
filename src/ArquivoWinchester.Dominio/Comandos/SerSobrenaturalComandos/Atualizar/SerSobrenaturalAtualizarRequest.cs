@@ -8,7 +8,7 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar
         IRequest<SerSobrenaturalAtualizarResponse>
     {
         public Guid Id { get; set; }
-        public string NomeEntidade { get; set; } = string.Empty;
+        public string NomeSerSobrenatural { get; set; } = string.Empty;
         public Guid CacadorAtualizadorId { get; set; }
         public string ContraMedida { get; set; } = string.Empty;
         public EnumNivelRiscoSerSobrenatural NivelRisco { get; set; }

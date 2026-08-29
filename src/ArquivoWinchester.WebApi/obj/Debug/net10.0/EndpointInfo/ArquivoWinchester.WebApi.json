@@ -194,6 +194,29 @@
         }
       }
     },
+    "/api/Cacada/deletar/{id}": {
+      "delete": {
+        "tags": [
+          "Cacada"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cacador/listar": {
       "get": {
         "tags": [
@@ -368,6 +391,29 @@
         }
       }
     },
+    "/api/Cacador/deletar/{id}": {
+      "delete": {
+        "tags": [
+          "Cacador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/SerSobrenatural/listar": {
       "get": {
         "tags": [
@@ -414,7 +460,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "NomeEntidade": {
+                  "NomeSerSobrenatural": {
                     "type": "string"
                   },
                   "CacadorCriadorId": {
@@ -437,7 +483,7 @@
                 }
               },
               "encoding": {
-                "NomeEntidade": {
+                "NomeSerSobrenatural": {
                   "style": "form"
                 },
                 "CacadorCriadorId": {
@@ -580,6 +626,48 @@
     },
     "/api/SerSobrenatural/desativar/{id}": {
       "patch": {
+        "tags": [
+          "SerSobrenatural"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SerSobrenatural/deletar/{id}": {
+      "delete": {
         "tags": [
           "SerSobrenatural"
         ],
@@ -836,7 +924,7 @@
             "type": "string",
             "format": "uuid"
           },
-          "nomeEntidade": {
+          "nomeSerSobrenatural": {
             "type": "string",
             "nullable": true
           },

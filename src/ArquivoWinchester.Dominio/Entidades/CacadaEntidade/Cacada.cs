@@ -76,21 +76,33 @@ namespace ArquivoWinchester.Dominio.Entidades.CacadaEntidade
 
         public void Resolver()
         {
+            if (StatusCacada != EnumStatusCacada.Investigando)
+                throw new Exception("Somente caçadas em investigação podem ser resolvidas");
+
             StatusCacada = EnumStatusCacada.Resolvido;
         }
 
         public void Arquivar()
         {
+            if (StatusCacada != EnumStatusCacada.Resolvido)
+                throw new Exception("Somente caçadas resolvidas podem ser arquivadas");
+
             StatusCacada = EnumStatusCacada.Arquivado;
         }
 
         public void Reabrir()
         {
+            if (StatusCacada != EnumStatusCacada.Resolvido && StatusCacada != EnumStatusCacada.Arquivado)
+                throw new Exception("Somente caçadas resolvidas ou arquivadas podem ser reabertas");
+
             StatusCacada = EnumStatusCacada.Aberto;
         }
 
         public void IniciarInvestigacao()
         {
+            if (StatusCacada != EnumStatusCacada.Aberto)
+                throw new Exception("Somente caçadas com status 'Aberto' podem mudar para 'Investigando'");
+
             StatusCacada = EnumStatusCacada.Investigando;
         }
     }
