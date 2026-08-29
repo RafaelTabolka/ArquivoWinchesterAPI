@@ -2,7 +2,6 @@
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadaRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.SerSobrenaturalRepositorio;
 using MediatR;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
 {
@@ -14,13 +13,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
         public async Task<CacadaCriarResponse> Handle(
             CacadaCriarRequest request, CancellationToken cancellationToken)
         {
-            //var validacao = new CacadaCriarValidation();
-
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var serSobrenatural = await repositorioSerSobrenatural
                 .ObterSerSobrenaturalAtivoPorIdAsync(request.SerSobrenaturalId);
 

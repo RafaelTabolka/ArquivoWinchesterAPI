@@ -1,7 +1,6 @@
 ﻿using ArquivoWinchester.Dominio.Interfaces.IRepositorio.CacadaRepositorio;
 using ArquivoWinchester.Dominio.Interfaces.IRepositorio.SerSobrenaturalRepositorio;
 using MediatR;
-using ValidationException = FluentValidation.ValidationException;
 
 namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar
 {
@@ -13,13 +12,6 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Atualizar
         public async Task<CacadaAtualizarResponse> Handle(
             CacadaAtualizarRequest request, CancellationToken cancellationToken)
         {
-            //var validacao = new CacadaAtualizarValidation();
-
-            //var validacaoResponse = validacao.Validate(request);
-
-            //if (!validacaoResponse.IsValid)
-            //    throw new ValidationException(validacaoResponse.Errors);
-
             var cacada = await repositorioCacada.ObterCacadaAbertaOuInvestigandoPorIdAsync(request.Id);
 
             if (cacada == null)
