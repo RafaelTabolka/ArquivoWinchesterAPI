@@ -16,11 +16,11 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar
         public async Task<CacadorCriarResponse> Handle(
             CacadorCriarRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new CacadorCriarValidation();
-            var validacaoResponse = validacao.Validate(request);
+            //var validacao = new CacadorCriarValidation();
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var existeNome = await repositorioCacador.ExisteNomeCadastrarAsync(request.NomeCacador);
 

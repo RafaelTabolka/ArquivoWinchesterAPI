@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "ArquivarCacada",
+    "RelativePath": "api/Cacada/arquivar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
     "Method": "AtualizarCacada",
     "RelativePath": "api/Cacada/atualizar",
     "HttpMethod": "PUT",
@@ -49,12 +65,44 @@
   },
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "IniciarCacada",
+    "RelativePath": "api/Cacada/iniciarInvestigacao/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
     "Method": "ListarCacadas",
     "RelativePath": "api/Cacada/listar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadaController.CacadaController",
+    "Method": "ReabrirCacada",
+    "RelativePath": "api/Cacada/reabrir/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -91,6 +139,38 @@
   },
   {
     "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "AtivarCacador",
+    "RelativePath": "api/Cacador/ativar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "AtualizarCacador",
+    "RelativePath": "api/Cacador/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArquivoWinchester.Dominio.Comandos.CacadorComandos.Atualizar.CacadorAtualizarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
     "Method": "CadastrarCacador",
     "RelativePath": "api/Cacador/cadastrar",
     "HttpMethod": "POST",
@@ -100,6 +180,22 @@
       {
         "Name": "request",
         "Type": "ArquivoWinchester.Dominio.Comandos.CacadorComandos.Criar.CacadorCriarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.CacadorControllers.CacadorController",
+    "Method": "DesativarCacador",
+    "RelativePath": "api/Cacador/desativar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -142,6 +238,27 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "AtivarSerSobrenatural",
+    "RelativePath": "api/SerSobrenatural/ativar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -221,6 +338,27 @@
         "Name": "arquivoImagem",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers.SerSobrenaturalController",
+    "Method": "DesativarSerSobrenatural",
+    "RelativePath": "api/SerSobrenatural/desativar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

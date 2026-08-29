@@ -10,12 +10,12 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Obter
         public async Task<CacadorObterResponse> Handle(
             CacadorObterRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new CacadorObterValidation();
+            //var validacao = new CacadorObterValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var cacador = await repositorioCacador.ObterCacadorPorIdAsync(request.Id);
 

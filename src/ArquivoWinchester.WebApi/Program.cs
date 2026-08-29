@@ -16,6 +16,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using System.Text;
 using System.Text.Json.Serialization;
+using ArquivoWinchester.Dominio.Comportamentos;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -144,12 +146,26 @@ var caminhoRaizImagens =
 builder.Services.AddScoped<IArmazenamentoImagem>(_ =>
     new ArmazenamentoImagem(caminhoRaizImagens));
 
-// Localiza e registra os Requests e Handlers do MediatR.
-var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+// Obtém a camada onde estão os handlers e validators.
+var assemblyDominio =
+    typeof(ValidacaoBehavior<,>).Assembly;
 
+// Localiza e registra os validators da camada Dominio.
+builder.Services.AddValidatorsFromAssembly(
+    assemblyDominio,
+    includeInternalTypes: true);
+
+// Registra os handlers e o comportamento de validação.
 builder.Services.AddMediatR(configuration =>
-    configuration.RegisterServicesFromAssemblies(
-        assemblies));
+{
+    // Localiza e registra os handlers.
+    configuration.RegisterServicesFromAssembly(
+        assemblyDominio);
+
+    // Faz todas as requests passarem pela validação.
+    configuration.AddOpenBehavior(
+        typeof(ValidacaoBehavior<,>));
+});
 
 // Permite que o Swagger encontre os endpoints da API.
 builder.Services.AddEndpointsApiExplorer();

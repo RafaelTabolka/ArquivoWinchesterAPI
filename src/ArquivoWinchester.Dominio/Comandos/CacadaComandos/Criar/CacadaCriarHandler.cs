@@ -11,12 +11,12 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
         public async Task<CacadaCriarResponse> Handle(
             CacadaCriarRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new CacadaCriarValidation();
+            //var validacao = new CacadaCriarValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
             
             var cacada = new Cacada(
                 request.Titulo,

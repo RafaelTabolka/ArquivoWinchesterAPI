@@ -36,7 +36,7 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadaComandos.Criar
                 "são permitidos para latitude.");
 
             RuleFor(c => c.Longitude)
-                .NotEmpty().WithMessage("Latitude não pode ser vazio")
+                .NotEmpty().WithMessage("Longitude não pode ser vazio")
                 .GreaterThanOrEqualTo(-180).WithMessage("Somente valores entre -180 a 180 " +
                 "são permitidos para longitude.")
                 .LessThanOrEqualTo(180).WithMessage("Somente valores entre -180 a 180 " +

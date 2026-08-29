@@ -14,12 +14,12 @@ namespace ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar
         public async Task<SerSobrenaturalCriarResponse> Handle(
             SerSobrenaturalCriarRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new SerSobrenaturalCriarValidation();
+            //var validacao = new SerSobrenaturalCriarValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var imagemUrl = await armazenamentoImagem.ArmazenarImagemAsync(request.Imagem);
 

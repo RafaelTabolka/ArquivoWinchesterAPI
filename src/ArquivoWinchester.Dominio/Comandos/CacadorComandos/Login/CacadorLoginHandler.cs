@@ -17,12 +17,12 @@ namespace ArquivoWinchester.Dominio.Comandos.CacadorComandos.Login
         public async Task<CacadorLoginResponse> Handle(
             CacadorLoginRequest request, CancellationToken cancellationToken)
         {
-            var validacao = new CacadorLoginValidation();
+            //var validacao = new CacadorLoginValidation();
 
-            var validacaoResponse = validacao.Validate(request);
+            //var validacaoResponse = validacao.Validate(request);
 
-            if (!validacaoResponse.IsValid)
-                throw new ValidationException(validacaoResponse.Errors);
+            //if (!validacaoResponse.IsValid)
+            //    throw new ValidationException(validacaoResponse.Errors);
 
             var cacador = await repositorioCacador
                 .ObterCacadorPorNomeAsync(request.NomeCacador);

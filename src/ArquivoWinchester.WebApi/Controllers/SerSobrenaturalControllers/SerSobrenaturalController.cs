@@ -1,4 +1,5 @@
-﻿using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar;
+﻿using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Ativar;
+using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Atualizar;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.AtualizarImagem;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Criar;
 using ArquivoWinchester.Dominio.Comandos.SerSobrenaturalComandos.Dto;
@@ -73,6 +74,24 @@ namespace ArquivoWinchester.WebApi.Controllers.SerSobrenaturalControllers
                 arquivoImagem.Length
             ));
 
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPatch("ativar/{id}")]
+        public async Task<IActionResult> AtivarSerSobrenatural(
+            [FromForm] Guid id)
+        {
+            var request = new SerSobrenaturalAtivarRequest(id);
+            var response = await mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpPatch("desativar/{id}")]
+        public async Task<IActionResult> DesativarSerSobrenatural(
+            [FromForm] Guid id)
+        {
+            var request = new SerSobrenaturalAtivarRequest(id);
             var response = await mediator.Send(request);
             return Ok(response);
         }
